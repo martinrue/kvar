@@ -1,0 +1,96 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #333;
+  padding: 0;
+  margin: 30px;
+  min-width: 300px;
+}
+
+.content {
+  margin: 0px auto;
+  max-width: 800px;
+}
+
+.cover {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  padding: 0;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 200;
+  color: #666;
+  text-align: center;
+  padding: 0 0 20px 0;
+  margin: 20px 0;
+  border-bottom: solid 1px #eee;
+}
+
+a {
+  text-decoration: none;
+  color: #139316;
+}
+
+a:hover {
+  color: #43c346;
+}
+
+.parts .intro {
+  padding: 20px 40px;
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  background: #f6f6f6;
+  border: solid 1px #eee;
+  margin-bottom: 25px;
+}
+
+.parts .part {
+  background: #ddd;
+  margin-bottom: 25px;
+  padding-left: 75px;
+  min-height: 60px;
+}
+
+.parts .part.one {
+  background: url("/images/1.png") top left / 60px 60px no-repeat;
+}
+
+.parts .part.two {
+  background: url("/images/2.png") top left / 60px 60px no-repeat;
+}
+
+.parts .part.three {
+  background: url("/images/3.png") top left / 60px 60px no-repeat;
+}
+
+.parts .part.four {
+  background: url("/images/4.png") top left / 60px 60px no-repeat;
+}
+
+.parts .part.all {
+  background: url("/images/1234.png") top left / 60px 60px no-repeat;
+}
+
+footer {
+  font-size: 16px;
+  margin-top: 60px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  body {
+    margin: 2px;
+  }
+}
